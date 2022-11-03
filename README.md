@@ -1,4 +1,4 @@
-# Restaurant-Food-order-and-Billing-System-Using-cpp
+# Restaurant-Food-order-and-Billing-System-Using-c
 This project implements a Restaurent Billing System where user can oder food items according to displayed menu. The Bill is generated at the end when user presses the Bill button i.e. (0).
 <pre>
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
