@@ -21,9 +21,8 @@ void rep_order ()
     printf(" |                    (3). COLD COOFFEE : 150/-                        |\n");
     printf(" |                    (4). FRIED RICE   : 100/-                        |\n");
     printf(" |                    (5). LASAGNA      : 120/-                        |\n");
-    printf(" |                    (6). BILL                                        |\n");
     printf(" |                                                                     |\n");
-    printf(" |                         (0). EXIT                                   |\n");
+    printf(" |                         (0). BILL                                   |\n");
     printf(" |                                                                     |\n");
     printf("  ---------------------------------------------------------------------\n");
 
@@ -111,9 +110,8 @@ void menu_order()
     printf(" |                    (3). COLD COOFFEE : 150/-                        |\n");
     printf(" |                    (4). FRIED RICE   : 100/-                        |\n");
     printf(" |                    (5). LASAGNA      : 120/-                        |\n");
-    printf(" |                    (6). BILL                                        |\n");
     printf(" |                                                                     |\n");
-    printf(" |                    (0). EXIT                                        |\n");
+    printf(" |                    (0). BILL                                        |\n");
     printf(" |                                                                     |\n");
     printf("  --------------------------------------------------------------------- \n");
 
@@ -173,11 +171,8 @@ void menu_order()
         rep_order();
         break;
 
-        case 6:
-        bill();
-        break;
-
         case 0:
+        bill();
         printf("\n  --------------------------------------------------------------------- \n");
         printf("                      (:  THANK YOU VISIT AGAIN  :)                     \n");
         printf("  --------------------------------------------------------------------- \n");
@@ -201,6 +196,7 @@ void menu_order()
 
 int main()
 {
+    system ("color 0E");
     menu_order();
 }
 
